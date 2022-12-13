@@ -128,7 +128,6 @@ a.spine {
     height: -webkit-fill-available;
     animation: move 2s ease-out;
     animation-fill-mode: forwards;
-    transition: transform .2s;
 }
 
 a.spine:nth-child(1) {
@@ -168,6 +167,7 @@ a.spine:nth-child(11) {
 a.l {
     margin-left: 8em;
     margin-right: 1em;
+    transition: transform .2s;
 }
 
 a.l:hover {
@@ -178,6 +178,7 @@ a.l:hover {
 
 a.r {
     margin-right: 1em;
+    transition: transform .2s;
 }
 
 a.r:hover {
