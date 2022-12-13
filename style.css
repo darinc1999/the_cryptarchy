@@ -130,6 +130,10 @@ a.spine {
     animation-fill-mode: forwards;
 }
 
+a.spine:hover {
+    transform: scale(1.25);    
+}
+
 a.spine:nth-child(1) {
     animation-delay: 0s;
 }
