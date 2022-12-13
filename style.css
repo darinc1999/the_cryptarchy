@@ -128,10 +128,11 @@ a.spine {
     height: -webkit-fill-available;
     animation: move 2s ease-out;
     animation-fill-mode: forwards;
+    transition: transform .2s;
 }
 
 a.spine:hover {
-    transform: scale(1.25);    
+    transform: scale(1.1);    
 }
 
 a.spine:nth-child(1) {
