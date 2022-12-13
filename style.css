@@ -131,12 +131,6 @@ a.spine {
     transition: transform .2s;
 }
 
-a.spine:hover {
-    transform: scale(1.1);
-    margin-right: 1em;
-    margin-left: 1em
-}
-
 a.spine:nth-child(1) {
     animation-delay: 0s;
 }
@@ -176,7 +170,18 @@ a.l {
     margin-right: 1em;
 }
 
+a.l:hover {
+    transform: scale(1.1);
+    margin-left: 8em;
+    margin-right: 1em;
+}
+
 a.r {
+    margin-right: 1em;
+}
+
+a.r:hover {
+    transform: scale(1.1);
     margin-right: 1em;
 }
 
